@@ -12,7 +12,7 @@ function Home() {
     event.preventDefault();
 
     // Make a POST request to the server with the form data
-    fetch('http://localhost:5000/', {
+    fetch('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', {
       method: 'POST',
       body: JSON.stringify(formData),
       headers: {
