@@ -13,8 +13,8 @@ function Home() {
 
     // Make a POST request to the server with the form data
     fetch('https://chatgptapp-y25t.onrender.com/', {
-      mode: 'no-cors',
       method: 'POST',
+      mode: 'cors',
       body: JSON.stringify(formData),
       headers: {
         'Content-Type': 'application/json'
