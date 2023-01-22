@@ -10,7 +10,6 @@ const title = 'To Do App';
      render() { 
          return (
              <div>
-                <h1>{title}</h1>
                  <ChatGPT />
              </div>
          );
